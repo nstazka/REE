@@ -11,20 +11,6 @@ st.markdown("---")
 # Membagi halaman menjadi 2 kolom: Kiri untuk Input/Output, Kanan untuk Peta
 kolom_kiri, kolom_kanan = st.columns([1, 1.2])
 
-# Menggunakan expander agar tampilan tetap rapi namun mudah dibuka oleh pengguna
-with st.expander("📖 Petunjuk Penggunaan", expanded=True):
-    st.markdown(
-        """
-        1. Pada bagian **INPUT**, isilah bagian **pH Fluida**, **Suhu Fluida**, dan **Pola Kurva REE** yang akan diidentifikasi.
-        2. Pastikan seluruh isian pada **INPUT** telah benar.
-        3. Klik tombol **RUN** (atau tombol RUN).
-        4. Hasil identifikasi akan ditampilkan pada bagian **HASIL DIAGNOSIS SISTEM**.
-        5. Apabila hasil running tidak berjalan, maka pastikan kembali bagian **INPUT** telah diisi dengan benar.
-
-        TERIMA KASIH
-        """
-    )
-
 with kolom_kiri:
     # 1. DROP-DOWN INPUT (Menampung semua opsi parameter geokimia)
     ph = st.selectbox(
@@ -134,4 +120,16 @@ with kolom_kanan:
 # --- TAMBAHAN DI BAGIAN PALING BAWAH FILE APP.PY ---
 st.markdown("---")
 
+# Menggunakan expander agar tampilan tetap rapi namun mudah dibuka oleh pengguna
+with st.expander("📖 Petunjuk Penggunaan", expanded=True):
+    st.markdown(
+        """
+        1. Pada bagian **INPUT**, isilah bagian **pH Fluida**, **Suhu Fluida**, dan **Pola Kurva REE** yang akan diidentifikasi.
+        2. Pastikan seluruh isian pada **INPUT** telah benar.
+        3. Klik tombol **RUN** (atau tombol RUN).
+        4. Hasil identifikasi akan ditampilkan pada bagian **HASIL DIAGNOSIS SISTEM**.
+        5. Apabila hasil running tidak berjalan, maka pastikan kembali bagian **INPUT** telah diisi dengan benar.
 
+        TERIMA KASIH
+        """
+    )
