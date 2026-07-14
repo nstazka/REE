@@ -107,7 +107,7 @@ with kolom_kiri:
                 )
             else:
                 # Menggantikan MsgBox vbCritical jika kombinasi parameter acak/salah
-                st.error("❌ Kombinasi parameter tidak sesuai dengan model zonasi geokimia Tapanuli Selatan. Silakan tinjau kembali data observasi Anda.")
+                st.error("❌ Kombinasi parameter tidak sesuai dengan model zonasi Tapanuli Selatan. Silakan tinjau kembali data masukan Anda.")
 
 with kolom_kanan:
     # Menampilkan gambar peta
