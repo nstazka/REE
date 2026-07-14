@@ -15,11 +15,18 @@ with kolom_kiri:
     # 1. DROP-DOWN INPUT (Menampung semua opsi parameter geokimia)
     ph = st.selectbox(
         "1. Pilih pH Fluida:", 
-        ["-- Pilih Parameter --", "Sangat Asam (pH < 4)", "Asam Lemah", "Netral–Basa", "Oksidatif"]
+        ["-- Pilih Parameter --", "Sangat Asam (pH < 4)", "Asam Lemah-Netral (ph 4-5)", "Netral–Basa (pH 6-8)", "Oksidatif"]
     )
     suhu = st.selectbox(
-        "2. Pilih Suhu Fluida:", 
-        ["-- Pilih Parameter --", "Suhu Tinggi (200°C–350°C)", "Suhu Sedang", "Suhu Rendah"]
+    "2. Pilih Suhu Fluida:", 
+    [
+        "-- Pilih Parameter --", 
+        "Suhu Tinggi (200°C–350°C)", 
+        "Suhu Tinggi (> 350°C)", 
+        "Suhu Sedang (150°C–200°C)", 
+        "Suhu Rendah (100°C–150°C)", 
+        "Suhu Sangat Rendah (< 100°C)"
+    ]
     )
     kurva = st.selectbox(
         "3. Pilih Pola Kurva REE:", 
