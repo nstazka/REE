@@ -121,7 +121,7 @@ with kolom_kanan:
 st.markdown("---")
 
 # Menggunakan expander agar tampilan tetap rapi namun mudah dibuka oleh pengguna
-with st.expander("📖 Petunjuk Penggunaan Sistem Pakar", expanded=True):
+with st.expander("📖 Petunjuk Penggunaan", expanded=True):
     st.markdown(
         """
         1. Pada bagian **INPUT**, isilah bagian **pH Fluida**, **Suhu Fluida**, dan **Pola Kurva REE** yang akan diidentifikasi.
