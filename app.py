@@ -116,3 +116,18 @@ with kolom_kanan:
         st.image(nama_gambar, caption="Hydrothermal Alteration South Tapanuli Regency", use_container_width=True)
     else:
         st.info("💡 Pastikan file gambar 'alterasi-tapselA1.jpg.jpeg' berada di repository GitHub Anda agar peta tampil di sini.")
+
+# --- TAMBAHAN DI BAGIAN PALING BAWAH FILE APP.PY ---
+st.markdown("---")
+
+# Menggunakan expander agar tampilan tetap rapi namun mudah dibuka oleh pengguna
+with st.expander("📖 Petunjuk Penggunaan Sistem Pakar", expanded=True):
+    st.markdown(
+        """
+        1. Pada bagian **INPUT PARAMETER LAPANGAN**, isilah bagian **pH Fluida**, **Suhu Fluida**, dan **Pola Kurva REE** yang akan diidentifikasi.
+        2. Pastikan seluruh isian pada **INPUT PARAMETER LAPANGAN** telah benar.
+        3. Klik tombol **JALANKAN ANALISIS GEOKIMIA** (atau tombol RUN).
+        4. Hasil identifikasi akan ditampilkan pada bagian **HASIL DIAGNOSIS SISTEM**.
+        5. Apabila hasil running tidak berjalan, maka pastikan kembali bagian **INPUT PARAMETER LAPANGAN** telah diisi dengan benar.
+        """
+    )
