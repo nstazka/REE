@@ -34,7 +34,7 @@ with kolom_kiri:
     )
     
     st.markdown(" ")
-    tombol_analisis = st.button("🔷 JALANKAN ANALISIS", use_container_width=True)
+    tombol_analisis = st.button("🔬⚙️ RUN", use_container_width=True)
     
     # Tempat penampung variabel output
     zona = ""
@@ -95,7 +95,7 @@ with kolom_kiri:
                 st.markdown(
                     f"""
                     <div style="background-color: {warna_bg}; padding: 20px; border-radius: 10px; border: 1px solid #ddd; color: #000000;">
-                        <h4 style="margin-top: 0; color: #111;">📋 HASIL DIAGNOSIS SISTEM</h4>
+                        <h4 style="margin-top: 0; color: #111;">📋📊 HASIL DIAGNOSIS SISTEM</h4>
                         <hr style="margin: 10px 0; border-color: #bbb;">
                         <p><b>Zona Alterasi Terdeteksi:</b><br><span style="font-size: 1.2em; font-weight: bold;">{zona}</span></p>
                         <p><b>Karakteristik Mobilitas REE:</b><br>{mobilitas}</p>
