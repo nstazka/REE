@@ -21,9 +21,9 @@ with kolom_kiri:
     "2. Pilih Suhu Fluida:", 
     [
         "-- Pilih Parameter --", 
-        "Suhu Tinggi (200°C–350°C)", 
-        "Suhu Tinggi (> 350°C)", 
-        "Suhu Sedang (150°C–200°C)", 
+        "Suhu Tinggi (200°C–350°C)",  
+        "Suhu Sedang (100°C–200°C)", 
+        "Suhu Sedang (200°C–300°C)",
         "Suhu Rendah (100°C–150°C)", 
         "Suhu Sangat Rendah (< 100°C)"
     ]
