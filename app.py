@@ -5,7 +5,7 @@ import os
 st.set_page_config(layout="wide")
 
 st.markdown("# 🌋 Identifikasi Penentuan Zonasi & Potensi REE")
-st.markdown("### Sistem Pakar Wilayah Tapanuli Selatan")
+st.markdown("### Wilayah Tapanuli Selatan")
 st.markdown("---")
 
 # Membagi halaman menjadi 2 kolom: Kiri untuk Input/Output, Kanan untuk Peta
