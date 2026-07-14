@@ -2,10 +2,10 @@ import streamlit as st
 import os
 
 # Mengatur layout agar lebar (wide mode) supaya peta dan input bisa bersandingan
-st.set_page_config(layout="wide", page_title="Sistem Pakar REE Tapanuli Selatan")
+st.set_page_config(layout="wide", page_title="REE Tapanuli Selatan")
 
 st.markdown("# 🌋 Identifikasi Penentuan Zonasi & Potensi REE")
-st.markdown("### Sistem Pakar Wilayah Tapanuli Selatan")
+st.markdown("### Wilayah Tapanuli Selatan")
 st.markdown("---")
 
 # Membagi halaman menjadi 2 kolom: Kiri untuk Input/Output, Kanan untuk Peta
