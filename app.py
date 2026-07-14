@@ -124,10 +124,12 @@ st.markdown("---")
 with st.expander("📖 Petunjuk Penggunaan Sistem Pakar", expanded=True):
     st.markdown(
         """
-        1. Pada bagian **INPUT PARAMETER LAPANGAN**, isilah bagian **pH Fluida**, **Suhu Fluida**, dan **Pola Kurva REE** yang akan diidentifikasi.
-        2. Pastikan seluruh isian pada **INPUT PARAMETER LAPANGAN** telah benar.
-        3. Klik tombol **JALANKAN ANALISIS GEOKIMIA** (atau tombol RUN).
+        1. Pada bagian **INPUT**, isilah bagian **pH Fluida**, **Suhu Fluida**, dan **Pola Kurva REE** yang akan diidentifikasi.
+        2. Pastikan seluruh isian pada **INPUT** telah benar.
+        3. Klik tombol **RUN** (atau tombol RUN).
         4. Hasil identifikasi akan ditampilkan pada bagian **HASIL DIAGNOSIS SISTEM**.
-        5. Apabila hasil running tidak berjalan, maka pastikan kembali bagian **INPUT PARAMETER LAPANGAN** telah diisi dengan benar.
+        5. Apabila hasil running tidak berjalan, maka pastikan kembali bagian **INPUT** telah diisi dengan benar.
+
+        TERIMA KASIH
         """
     )
