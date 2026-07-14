@@ -13,7 +13,7 @@ kolom_kiri, kolom_kanan = st.columns([1, 1.2])
 
 with kolom_kiri:
     # 1. Dropdown Input
-    ph = st.selectbox("1. Pilih pH Fluida:", ["-- Pilih Parameter --", "Sangat Asam (pH < 4)", "Asam", "Netral", "Sangat Basa"])
+    ph = st.selectbox("1. Pilih pH Fluida:", ["-- Pilih Parameter --", "Sangat Asam (pH < 4)", "Asam Lemah-Netral (pH  4-5)", "Netral-Basa (pH 6-8)", "Oksidatif"])
     suhu = st.selectbox("2. Pilih Suhu Fluida:", ["-- Pilih Parameter --", "Suhu Tinggi (200°C - 350°C)", "Suhu Sedang (100°C - 200°C)", "Suhu Rendah (< 100°C)"])
     kurva = st.selectbox("3. Pilih Pola Kurva REE:", ["-- Pilih Parameter --", "Depresi / Defisit", "Pengayaan LREE", "Pola Normal", "Anomali Ce Positif"])
     
